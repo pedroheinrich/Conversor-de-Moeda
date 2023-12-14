@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap');
+
+:root {
+    --bg-color: #201b2c;
+    --segunda-bg-color: #323946;
+    --texto-color: #fff;
+    --verde-color: #00ff88;
+}
+
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Poppins', sans-serif;
+    font-size: 100%;
+    background-color: var(--bg-color);
+    color: var(--texto-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#div {
+    height: 510px;
+    width: 400px;
+    border-radius: 15px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.384) ;
+    background-color: #323946;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+
+
+h1 {
+    
+    background-color: var(--verde-color);
+    width: 400px;
+    color: var(--bg-color);
+    padding: 1rem;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.384) ;
+}
+
+h2 {
+    color: var(--texto-color);
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    margin: 0.5rem 1rem;
+    font-size: 1.1rem;
+    display: block;
+    justify-content: center;
+}
+
+#maxvalue {
+    color: var(--verde-color);
+    font-weight: 700;
+}
+
+#minvalue {
+    color: rgb(255, 114, 114);
+    font-weight: 700;
+}
+#conversor{
+    display: block;
+    
+}
+input {
+    font-family: 'Poppins';
+    font-weight: 900;
+    height: 30px;
+    width: 200px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin: 5px;
+    padding-left: 15px;
+    
+    
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+
+button{
+    background-color: var(--verde-color);
+    font-family: 'Poppins';
+    font-weight: 900;
+    height: 30px;
+    width: 220px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin: 2px;
+    
+
+}
